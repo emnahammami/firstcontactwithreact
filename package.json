@@ -1,0 +1,52 @@
+{"homepage": "http://emnahammami.github.io/react-app",
+  "name": "firstcontact",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "framer-motion": "^6.2.8",
+    "react": "16.8",
+    "react-dom": "16.8",
+    "react-is": "16.8",
+    "react-responsive": "^9.0.0-beta.6",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "5.0.0",
+    "styled-components": "^5.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+   
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+
+  "build": "react-scripts build && cp build/index.html build/404.html"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
