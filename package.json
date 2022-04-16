@@ -1,7 +1,8 @@
-{"homepage": "http://emnahammami.github.io/react-app",
+{
   "name": "firstcontact",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://emnahammami.github.io/firstcontactwithreact  ",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
     "@material-ui/icons": "^4.11.2",
